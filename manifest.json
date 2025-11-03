@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Google Meet Transcript + Recorder",
+    "version": "1.1.0",
+    "permissions": ["activeTab", "downloads", "tabCapture", "offscreen", "storage","tabs", "desktopCapture"],
+    "host_permissions": ["https://meet.google.com/*"],
+    "action": { "default_popup": "popup.html" },
+    "background": { "service_worker": "background.js", "type": "module" },
+    "content_scripts": [
+      { "matches": ["https://meet.google.com/*"], "js": ["scrapingScript.js"], "run_at": "document_idle" }
+    ],
+    "web_accessible_resources": [
+      { "resources": ["offscreen.html"], "matches": ["<all_urls>"] }
+    ]
+  }
