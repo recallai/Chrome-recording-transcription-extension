@@ -42,8 +42,8 @@ and is scoped to `https://meet.google.com/*`.
 ## Quick start
 1) Clone and install
 ```
-git clone https://github.com/recallai/Chrome-recording-transcription-extension.git
-cd Chrome-recording-transcription-extension
+git clone https://github.com/recallai/chrome-recording-transcription-extension.git
+cd chrome-recording-transcription-extension
 npm install
 ```
 
