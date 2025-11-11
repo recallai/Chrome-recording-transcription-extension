@@ -1,10 +1,13 @@
-# Google Meet Transcript + Recorder (Chrome Extension)
+# Meeting Recording Extension (Chrome Extension)
 
 Scrape live captions from a Google Meet and save them as a `.txt` transcript, or record the current Google Meet tab (video + audio) to a `.webm` file. Optionally, mix in your microphone so your own voice is included in the recording.
 
 Everything happens locally in your browser.
 
-Follow the full tutorial with extension, demos, and more in this blog.
+If you're interested in the process, reasoning, demos, and more, [check out the blog](https://www.recall.ai/blog/how-to-build-a-chrome-recording-extension).
+
+## Hosted Meeting Recording API
+If you'd rather use a bot or desktop recording form factor, check out [Recall.ai](https://www.recall.ai/?utm_source=github&utm_medium=sampleapp&utm_campaign=chrome-recording-extension)
 
 ## Features
 
